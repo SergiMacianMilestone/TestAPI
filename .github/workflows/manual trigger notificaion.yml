@@ -40,9 +40,9 @@ jobs:
     steps:
     - uses: Netail/webhook-notifier@v1
       with:
-        teams-url: 'https://milestonesys365.webhook.office.com/webhookb2/cd834197-8327-45d5-994a-c4aff4b8dd00@4744e4b2-072d-4754-be71-250b45e049fe/IncomingWebhook/0cb8030c37a9495791c197b7b5caaeaa/592bf4a3-abf9-4ae6-8f88-0e65713dfa92'
+        teams-url: 'https://milestonesys365.webhook.office.com/webhookb2/9c06da32-4094-4aed-855a-ce5fdf4c0763@4744e4b2-072d-4754-be71-250b45e049fe/IncomingWebhook/59ba70b3ec474879a6fe491c58720a12/592bf4a3-abf9-4ae6-8f88-0e65713dfa92'
         color: 'info'
         title: '${{ inputs.name }} says:'
         text: ${{ inputs.description }}
         fields: '[{"name": "Repository", "value": "${{ github.event.repository.name }}"}]'
-        buttons: '[{"label": "Google", "url": "www.google.com"}]'
+        buttons: '[{"label": "Google", "url": "google.com"}]'
